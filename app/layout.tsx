@@ -103,9 +103,9 @@ export const metadata: Metadata = {
 
 	// Alternate languages if you support multiple languages
 	alternates: {
-		canonical: "https://explore360.com", // Replace with your actual domain
+		canonical: "https://theexplore360.com", // Replace with your actual domain
 		languages: {
-			"en-US": "https://explore360.com",
+			"en-US": "https://theexplore360.com",
 			// Add other language versions if available
 			// "fr-FR": "https://explore360.com/fr",
 		},
