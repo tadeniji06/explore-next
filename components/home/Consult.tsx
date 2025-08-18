@@ -121,7 +121,7 @@ const Consult = () => {
 								<div className='flex flex-col sm:flex-row gap-8 justify-center items-center mb-8'>
 									{/* YouTube Link */}
 									<a
-										href='https://youtube.com/@YourChannelName' // Replace with your actual YouTube channel
+										href='https://youtube.com/@showcaseafricatv?si=tbqdabJ_6PjC9yPk' // Replace with your actual YouTube channel
 										target='_blank'
 										rel='noopener noreferrer'
 										className='group flex items-center gap-6 bg-white hover:bg-red-50 px-8 py-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-200 hover:border-red-200 min-w-[250px]'
@@ -145,7 +145,7 @@ const Consult = () => {
 
 									{/* Spotify Link */}
 									<a
-										href='https://open.spotify.com/show/YourPodcastID' // Replace with your actual Spotify podcast
+										href='https://open.spotify.com/show/YourPodcastID'
 										target='_blank'
 										rel='noopener noreferrer'
 										className='group flex items-center gap-6 bg-white hover:bg-green-50 px-8 py-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-200 hover:border-green-200 min-w-[250px]'
