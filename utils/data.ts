@@ -3,23 +3,23 @@ export const navLinks = [
 		name: "Home",
 		link: "/",
 	},
-
 	{
-		name: "African Business Tours",
-		link: "/tour",
+		name: "Showcase Africa TV",
+		link: "/soon",
 	},
 
 	{
-		name: "Business Consulting",
+		name: "Consulting",
 		link: "/services",
 	},
+
 	{
-		name: "Showcase Africa Podcast",
+		name: "Showcase Africa Magazine",
 		link: "/soon",
 	},
 	{
-		name: "Business Chronicles Magazine",
-		link: "/soon",
+		name: "African Tours",
+		link: "/tour",
 	},
 	{
 		name: "Blog",

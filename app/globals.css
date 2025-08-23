@@ -2,8 +2,8 @@
 @import "tailwindcss";
 
 @theme {
-	--color-primary-brown: #4e1803f0;
-	--color-light-brown: #bc3908;
+	--color-primary-brown: #990100;
+	--color-light-brown: #ce3a3a;
 }
 
 body {

@@ -103,7 +103,15 @@ const Footer = () => {
 				<div className='border-t border-white mt-12 pt-8'>
 					<div className='flex flex-col sm:flex-row justify-between items-center gap-4'>
 						<div className='text-white text-sm'>
-							<p>Made with ❤️ by B360 Development Team</p>
+							<p>
+								Developed by{" "}
+								<Link
+									target='_blank'
+									href='https://olutunmise.vercel.app'
+								>
+									princeOTF
+								</Link>
+							</p>
 						</div>
 						<div className='flex gap-6 text-sm'>
 							<Link
