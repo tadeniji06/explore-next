@@ -32,7 +32,7 @@ const Hero = () => {
 
 					{/* Subheading */}
 					<p className='text-lg md:text-xl font-medium leading-relaxed max-w-3xl text-gray-200'>
-						From magazines to TV, we spotlight Africa’s creativity,
+						From TV Production to Magazines to Event Curation, we spotlight Africa’s creativity,
 						culture, and innovation — helping brands and talents grow
 						with confidence.
 					</p>
