@@ -7,6 +7,10 @@ export const navLinks = [
 		name: "Our Team",
 		link: "/team",
 	},
+		{
+		name: "Our Services",
+		link: "/services",
+	},
 	{
 		name: "Our Products",
 		link: "/products",
@@ -15,19 +19,6 @@ export const navLinks = [
 		name: "Showcase Africa TV",
 		link: "https://showcaseafricaonline.com",
 	},
-	{
-		name: "Consulting",
-		link: "/services",
-	},
-
-	{
-		name: "Showcase Africa Magazine",
-		link: "https://showcaseafricaonline.com",
-	},
-	// {
-	// 	name: "African Tours",
-	// 	link: "/tour",
-	// },
 	{
 		name: "Blog",
 		link: "/blog",

@@ -24,13 +24,15 @@ const AboutHero = () => {
 					<div className='flex flex-col gap-6 text-white items-center px-4 max-w-4xl mx-auto text-center'>
 						{/* Main heading */}
 						<h1 className='text-4xl md:text-6xl font-bold leading-tight'>
-							About Explore360{" "}
+							About Explore360
 						</h1>
 
 						{/* Subheading */}
 						<p className='text-lg md:text-xl font-medium leading-relaxed max-w-3xl'>
-							Your Trusted Partner for Business Expansion and
-							Exploration in Africa
+							We are your trusted partner for business expansion,
+							trade facilitation, and authentic African exploration—
+							equipping you to grow confidently in one of the world’s
+							most dynamic regions.
 						</p>
 
 						{/* Buttons */}
@@ -39,7 +41,7 @@ const AboutHero = () => {
 								Explore Our Services
 							</button>
 							<button className='bg-light-brown hover:bg-light-brown/90 text-white px-8 py-3 rounded-xl font-semibold transition-colors duration-200'>
-								Book Consultation
+								Book a Consultation
 							</button>
 						</div>
 					</div>

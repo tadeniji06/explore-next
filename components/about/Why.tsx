@@ -25,12 +25,14 @@ const Why = () => {
 						Why Choose Explore360?
 					</h2>
 					<p className='text-gray-700 leading-relaxed text-base md:text-lg max-w-2xl'>
-						With deep regional expertise, strong stakeholder networks,
-						and a team of experienced consultants and tour curators,
-						Explore360 is uniquely positioned to guide your African
-						journey. We blend business strategy with cultural
-						immersion, ensuring every engagement delivers value,
-						growth, and lasting partnerships.
+						Because Africa deserves more than surface-level
+						exploration. At Explore360, we combine market intelligence
+						with cultural insight—helping you expand with clarity,
+						build authentic partnerships, and unlock opportunities
+						others overlook. Our team brings together consultants,
+						trade experts, and tour curators who live and breathe
+						Africa’s business and cultural landscape, ensuring every
+						move you make drives real growth and lasting impact.
 					</p>
 				</motion.div>
 

@@ -10,9 +10,9 @@ export default function Home() {
 			<Hero />
 			<HomeAbout />
 			<hr className='border border-gray-400' />
-			<Explore />
+			{/* <Explore /> */}
 			<hr className='border border-gray-400' />
-			<Consult />
+			{/* <Consult /> */}
 			<hr className='border border-gray-400' />
 			<Chronicles />
 		</>

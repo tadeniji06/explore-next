@@ -43,17 +43,19 @@ const Story = () => {
 						className='text-gray-700 text-base leading-relaxed max-w-3xl'
 					>
 						<p className='mb-4'>
-							Founded with a vision to redefine Africa's global
-							perception, Explore360 began as a consultancy to support
-							businesses seeking market entry and trade expansion.
+							Explore360 was born from a simple conviction: Africa’s
+							stories, markets, and opportunities deserve to be seen
+							on the global stage. What began as a boutique
+							consultancy for market entry and trade support has grown
+							into a multi-faceted platform for business and cultural
+							exploration.
 						</p>
 						<p>
-							Over the years, we expanded to include curated business
-							and leisure tours, offering our clients authentic
-							African experiences alongside strategic business growth.
-							Today, Explore360 stands as a leading pan-African
-							partner for organisations and individuals looking to
-							expand, connect, and explore Africa confidently.
+							From tailored consulting to curated business and leisure
+							experiences, we connect people, ideas, and opportunities
+							across borders. Today, Explore360 stands as a trusted
+							partner for organisations and individuals ready to
+							confidently expand, connect, and thrive across Africa.
 						</p>
 					</motion.div>
 				</div>
@@ -91,13 +93,12 @@ const Story = () => {
 						className='text-gray-700 text-base leading-relaxed max-w-3xl'
 					>
 						<p>
-							At Explore360, our mission is to empower global
-							businesses and individuals to unlock the vast
-							opportunities within Africa. We achieve this by
-							providing strategic business expansion consulting,
-							curated trade facilitation, and immersive tours that
-							bridge cultures, foster partnerships, and drive growth
-							across the continent.
+							Our mission is simple but ambitious: to make Africa the
+							next frontier of confident global business expansion.
+							Through strategic consulting, trade facilitation, and
+							immersive cultural tours, we break barriers, foster
+							partnerships, and unlock growth—transforming bold
+							visions into real, lasting impact across the continent.
 						</p>
 					</motion.div>
 				</div>
