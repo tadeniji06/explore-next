@@ -18,8 +18,25 @@ import southA from "./southA.jpg";
 import spot from "./spot.jpg";
 import spotify from "./spotify.png";
 import youtube from "./yt.png";
+
+import stu1 from "./pp/stu1.jpg";
+import stu2 from "./pp/stu2.jpg";
+import gift from "./pp/gift.jpeg";
+import isaac from "./pp/isaac.jpeg";
+import isamil from "./pp/ismail.jpeg";
+import peace from "./pp/pix.jpeg";
+import victoria from "./pp/vic.jpeg";
+import DO from "./pp/do.jpeg";
 export {
 	logo,
+	stu1,
+	DO,
+	stu2,
+	gift,
+	isaac,
+	isamil,
+	peace,
+	victoria,
 	heroImage,
 	about,
 	sa,

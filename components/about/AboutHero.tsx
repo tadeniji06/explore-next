@@ -1,6 +1,5 @@
 "use client";
-
-import { why } from "@/assets";
+import { stu1 } from "@/assets";
 import Image from "next/image";
 
 const AboutHero = () => {
@@ -10,7 +9,7 @@ const AboutHero = () => {
 				{/* Background Image */}
 				<Image
 					priority
-					src={why}
+					src={stu1}
 					alt='About Explore360 background'
 					fill
 					className='object-cover object-center transition-opacity duration-1000 ease-in-out'

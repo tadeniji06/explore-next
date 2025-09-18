@@ -4,10 +4,17 @@ export const navLinks = [
 		link: "/",
 	},
 	{
-		name: "Showcase Africa TV",
-		link: "/soon",
+		name: "Our Team",
+		link: "/team",
 	},
-
+	{
+		name: "Our Products",
+		link: "/products",
+	},
+	{
+		name: "Showcase Africa TV",
+		link: "https://showcaseafricaonline.com",
+	},
 	{
 		name: "Consulting",
 		link: "/services",
@@ -15,12 +22,12 @@ export const navLinks = [
 
 	{
 		name: "Showcase Africa Magazine",
-		link: "/soon",
+		link: "https://showcaseafricaonline.com",
 	},
-	{
-		name: "African Tours",
-		link: "/tour",
-	},
+	// {
+	// 	name: "African Tours",
+	// 	link: "/tour",
+	// },
 	{
 		name: "Blog",
 		link: "/blog",

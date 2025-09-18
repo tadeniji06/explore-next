@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { why } from "@/assets";
+import { stu2 } from "@/assets";
 import Image from "next/image";
 
 const Why = () => {
@@ -32,13 +32,6 @@ const Why = () => {
 						immersion, ensuring every engagement delivers value,
 						growth, and lasting partnerships.
 					</p>
-					<motion.button
-						whileHover={{ scale: 1.05 }}
-						whileTap={{ scale: 0.95 }}
-						className='bg-light-brown text-white font-semibold px-6 py-3 rounded-full transition duration-300 shadow-md hover:shadow-lg'
-					>
-						Read More
-					</motion.button>
 				</motion.div>
 
 				{/* Image Section */}
@@ -50,7 +43,7 @@ const Why = () => {
 				>
 					<div className='relative w-full aspect-[4/3]'>
 						<Image
-							src={why}
+							src={stu2}
 							alt='Why Choose Explore360'
 							fill
 							className='object-cover rounded-lg'
