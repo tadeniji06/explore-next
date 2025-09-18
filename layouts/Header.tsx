@@ -18,13 +18,13 @@ const Header = () => {
 	};
 
 	return (
-		<header className='sticky top-0 z-50 bg-primary-brown border-b shadow-lg h-[150px]'>
+		<header className='sticky top-0 z-50 bg-primary-brown border-b shadow-lg'>
 			<div className='flex items-center justify-between px-4 max-w-8xl mx-auto lg:px-6'>
 				{/* Logo */}
 				<div className='cursor-pointer flex-shrink-0'>
 					<Link href='/' onClick={closeMobileMenu}>
 						<Image
-							className='w-full h-full object-contain'
+							className='w-[300px] h-[150px] object-cover'
 							src={logo2}
 							alt='Logo'
 						/>

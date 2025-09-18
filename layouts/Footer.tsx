@@ -16,7 +16,7 @@ const Footer = () => {
 							<div className='w-[350px] h-[200px] mb-4'>
 								<Link href='/'>
 									<Image
-										className='w-full h-full object-contain'
+										className='w-full h-full object-cover'
 										src={logo2}
 										alt='B360 Development Logo'
 									/>
