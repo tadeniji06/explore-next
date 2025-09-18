@@ -36,23 +36,13 @@ const Products = () => {
 				/>
 				<div className='absolute inset-0 bg-black/80' />
 				<div className='relative z-10 px-6'>
-					<motion.h1
-						initial={{ opacity: 0, y: 30 }}
-						whileInView={{ opacity: 1, y: 0 }}
-						transition={{ duration: 0.6 }}
-						className='text-4xl md:text-6xl font-bold text-[var(--color-light-brown)]'
-					>
+					<h1 className='text-4xl md:text-6xl font-bold text-[var(--color-light-brown)]'>
 						Our Products
-					</motion.h1>
-					<motion.p
-						initial={{ opacity: 0, y: 20 }}
-						whileInView={{ opacity: 1, y: 0 }}
-						transition={{ duration: 0.6, delay: 0.2 }}
-						className='mt-4 text-lg md:text-xl text-gray-300 max-w-2xl mx-auto'
-					>
+					</h1>
+					<p className='mt-4 text-lg md:text-xl text-gray-300 max-w-2xl mx-auto'>
 						Platforms built to showcase Africa’s creativity, culture,
 						and innovation to the world.
-					</motion.p>
+					</p>
 				</div>
 			</section>
 
