@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { navLinks } from "../utils/data";
-import { logo } from "../assets/index";
+import { logo2 } from "../assets/index";
 import Link from "next/link";
 import { Icon } from "@iconify/react/dist/iconify.js";
 import Image from "next/image";
@@ -18,14 +18,14 @@ const Header = () => {
 	};
 
 	return (
-		<header className='sticky top-0 z-50 bg-primary-brown border-b shadow-lg '>
-			<div className='flex items-center justify-between px-4 py-3 max-w-8xl mx-auto lg:px-6'>
+		<header className='sticky top-0 z-50 bg-primary-brown border-b shadow-lg h-[150px]'>
+			<div className='flex items-center justify-between px-4 max-w-8xl mx-auto lg:px-6'>
 				{/* Logo */}
-				<div className='w-[220px] h-[120px] cursor-pointer flex-shrink-0'>
+				<div className='cursor-pointer flex-shrink-0'>
 					<Link href='/' onClick={closeMobileMenu}>
 						<Image
 							className='w-full h-full object-contain'
-							src={logo}
+							src={logo2}
 							alt='Logo'
 						/>
 					</Link>

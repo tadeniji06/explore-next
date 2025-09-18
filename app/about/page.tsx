@@ -40,10 +40,9 @@ const page = () => {
 	return (
 		<>
 			<AboutHero />
-			<Story />
 			<Why />
 			<Values />
-			<Ready />
+			{/* <Ready /> */}
 		</>
 	);
 };

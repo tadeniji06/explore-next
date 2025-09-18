@@ -1,7 +1,6 @@
-import { logo } from "../assets";
+import { logo2 } from "../assets";
 import Link from "next/link";
 import { navLinks, socials } from "../utils/data";
-import { Icon } from "@iconify/react/dist/iconify.js";
 import Image from "next/image";
 
 const Footer = () => {
@@ -14,11 +13,11 @@ const Footer = () => {
 					{/* Company Info Section */}
 					<div className='lg:col-span-2'>
 						<div className='mb-6'>
-							<div className='w-[155px] h-[70px] mb-4'>
+							<div className='w-[350px] h-[200px] mb-4'>
 								<Link href='/'>
 									<Image
 										className='w-full h-full object-contain'
-										src={logo}
+										src={logo2}
 										alt='B360 Development Logo'
 									/>
 								</Link>

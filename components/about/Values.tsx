@@ -8,25 +8,25 @@ const valuesData = [
 		icon: "mdi:shield-check",
 		title: "Professionalism",
 		description:
-			"We uphold the highest standards of excellence in everything we do. From the first consultation to project execution, we combine expert insight with diligence, ensuring deliverables that not only meet our clients’ expectations, but exceed them.",
+			"We uphold the highest standards of excellence in everything we do.We deliver with diligence and expertise that exceed expectations.",
 	},
 	{
 		icon: "mdi:handshake",
 		title: "Integrity",
 		description:
-			"Trust is the foundation of our relationships. We operate with unwavering transparency, honesty, and ethical practices in all engagements.",
+			"Trust is the foundation of our relationships. We operate with transparency, honesty, and ethical practices in all engagements.",
 	},
 	{
 		icon: "mdi:earth",
 		title: "Pan-African Excellence",
 		description:
-			"We celebrate Africa’s diversity, opportunities, and humanity — with a deep understanding of regional cultures, economies, and networks, we tailor each client experience with localized context.",
+			"We celebrate Africa’s diversity and opportunities. With cultural and market insights, we tailor content that truly resonate across regions.",
 	},
 	{
 		icon: "mdi:lightbulb-on-outline",
 		title: "Innovation",
 		description:
-			"In a rapidly evolving world, we bring fresh perspectives to every project. We embrace creativity and adaptive thinking alongside validated structures that address unique challenges.",
+			"We embrace creativity and adaptive thinking to solve unique challenges, delivering fresh ideas backed by proven structures.",
 	},
 ];
 
@@ -41,18 +41,18 @@ const cardVariants = {
 
 const Values = () => {
 	return (
-		<section className='py-16 px-4 bg-gray-50'>
-			<div className='max-w-7xl mx-auto text-center mb-12'>
-				<h2 className='text-2xl md:text-3xl font-bold text-gray-800'>
-					Our Values
+		<section className='py-20 px-6 bg-gray-50'>
+			<div className='max-w-7xl mx-auto text-center mb-14'>
+				<h2 className='text-3xl md:text-5xl font-bold text-gray-900'>
+					Our <span className='text-light-brown'>Values</span>
 				</h2>
-				<p className='text-gray-600 mt-3 max-w-2xl mx-auto'>
-					We are driven by values that define our brand and the impact
-					we create for our clients.
+				<p className='text-gray-600 mt-4 max-w-2xl mx-auto text-lg leading-relaxed'>
+					These principles define our brand and guide the impact we
+					create for clients.
 				</p>
 			</div>
 
-			<div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6'>
+			<div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto'>
 				{valuesData.map((value, index) => (
 					<motion.div
 						key={index}
@@ -61,11 +61,11 @@ const Values = () => {
 						whileInView='visible'
 						viewport={{ once: true }}
 						variants={cardVariants}
-						className='bg-white rounded-xl shadow-md p-6 text-left border border-gray-100 hover:shadow-lg transition'
+						className='bg-white rounded-2xl shadow-lg border border-gray-100 p-8 hover:shadow-2xl transition-all duration-300'
 					>
-						<div className='mb-4 flex items-center gap-2 text-light-brown'>
-							<Icon icon={value.icon} width='24' height='24' />
-							<h3 className='font-semibold text-lg text-gray-800'>
+						<div className='flex items-center gap-3 mb-5 text-light-brown'>
+							<Icon icon={value.icon} width='28' height='28' />
+							<h3 className='text-lg font-semibold text-gray-900'>
 								{value.title}
 							</h3>
 						</div>

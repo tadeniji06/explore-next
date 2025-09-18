@@ -18,22 +18,22 @@ const ServiceBody = () => {
 		{
 			name: "Video Production",
 			icon: <Film size={28} />,
-			desc: "Corporate films, commercials, documentaries, and brand stories — from concept to post-production.",
+			desc: "Corporate videos, commercials, brand films, and documentaries — from script to screen.",
 		},
 		{
 			name: "Photography",
 			icon: <Camera size={28} />,
-			desc: "Capture powerful stills with services including corporate headshots, lifestyle shoots, product photography, and event coverage.",
+			desc: "Event coverage, product shoots, lifestyle content, and corporate headshots that tell your brand’s story.",
 		},
 		{
 			name: "Audio Production",
 			icon: <Music size={28} />,
-			desc: "Podcasts, voiceovers, music scoring, and professional sound design that elevate your brand’s presence.",
+			desc: "Podcasts, voiceovers, original music, and sound design — we craft the sound that shapes your story.",
 		},
 		{
 			name: "Motion Graphics & Animation",
 			icon: <LineChart size={28} />,
-			desc: "Explainer videos, animated logos, and dynamic visuals that simplify complex ideas and engage audiences.",
+			desc: "Explainer videos, animated logos, and motion graphics that bring complex ideas to life.",
 		},
 	];
 
@@ -41,27 +41,27 @@ const ServiceBody = () => {
 		{
 			step: "Discovery",
 			icon: <Search size={26} />,
-			desc: "We start by listening. A detailed consultation to understand your goals, your audience, and your unique story.",
+			desc: "We begin with a detailed consultation to understand your vision, goals, and audience.",
 		},
 		{
 			step: "Strategy & Creative",
 			icon: <Lightbulb size={26} />,
-			desc: "Our team crafts a creative brief and develops a plan that aligns with your vision and budget.",
+			desc: "Our team develops a creative brief and production plan tailored to your brand and budget.",
 		},
 		{
 			step: "Production",
 			icon: <Clapperboard size={26} />,
-			desc: "This is where the magic happens. We handle everything on set, from lighting and sound to directing and capturing every detail.",
+			desc: "From directing to lighting and sound, we capture every frame with precision.",
 		},
 		{
 			step: "Post-Production",
 			icon: <Scissors size={26} />,
-			desc: "We meticulously edit, color grade, and sound design to perfect your project — we don’t stop until you’re thrilled.",
+			desc: "Editing, color grading, and sound design to polish your project until it shines.",
 		},
 		{
 			step: "Delivery",
 			icon: <Send size={26} />,
-			desc: "We deliver your final product in the formats you need, ready to be shared with the world.",
+			desc: "We deliver final assets in the formats you need — ready to share with the world.",
 		},
 	];
 
@@ -98,16 +98,15 @@ const ServiceBody = () => {
 						variants={cardVariants}
 						className='text-3xl md:text-5xl font-bold text-gray-900 leading-tight'
 					>
-						What We Do at{" "}
-						<span className='text-light-brown'>Explore360</span>
+						Our <span className='text-light-brown'>Services</span>
 					</motion.h2>
 					<motion.p
 						variants={cardVariants}
 						className='text-gray-600 text-lg md:text-xl max-w-3xl mx-auto leading-relaxed'
 					>
-						From launching businesses across Africa to producing
-						visually stunning stories — our integrated services help
-						you succeed on every front.
+						From cinematic video production to immersive photography
+						and audio storytelling, we craft visuals and sounds that
+						connect, captivate, and convert.
 					</motion.p>
 				</motion.div>
 
@@ -149,8 +148,8 @@ const ServiceBody = () => {
 							Our <span className='text-light-brown'>Process</span>
 						</h2>
 						<p className='text-gray-600 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed'>
-							We follow a structured, collaborative approach so you
-							know exactly what to expect at every stage.
+							We make production simple, structured, and collaborative
+							— so you know exactly what to expect at every stage.
 						</p>
 					</div>
 
@@ -192,12 +191,11 @@ const ServiceBody = () => {
 						className='bg-gray-50 rounded-2xl p-10'
 					>
 						<h3 className='text-2xl md:text-3xl font-bold text-gray-900 mb-4'>
-							Ready to Elevate Your Business & Brand?
+							Let’s Create Something Great Together.
 						</h3>
 						<p className='text-gray-600 text-lg mb-8 max-w-2xl mx-auto'>
-							Whether you need strategic consulting or powerful
-							storytelling, Explore360 is your partner in building
-							something extraordinary.
+							Whether you need a corporate film, a brand story, or a
+							podcast, our team is ready to bring your vision to life.
 						</p>
 						<div className='flex flex-col sm:flex-row gap-4 justify-center'>
 							<motion.button
@@ -205,14 +203,14 @@ const ServiceBody = () => {
 								whileTap={{ scale: 0.95 }}
 								className='bg-primary-brown hover:bg-primary-brown/90 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 shadow-lg'
 							>
-								Get Started Today
+								Get a Quote
 							</motion.button>
 							<motion.button
 								whileHover={{ scale: 1.05 }}
 								whileTap={{ scale: 0.95 }}
 								className='bg-light-brown hover:bg-light-brown/90 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 shadow-lg'
 							>
-								Schedule Consultation
+								See Our Work
 							</motion.button>
 						</div>
 					</motion.div>

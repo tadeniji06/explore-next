@@ -15,17 +15,32 @@ const ServiceHero = () => {
 				className='max-w-7xl mx-auto flex flex-col-reverse lg:flex-row items-center gap-12'
 			>
 				{/* Text Content */}
-				<div className='flex-1 space-y-6'>
+				<div className='flex-1 space-y-6 text-center lg:text-left'>
 					<h1 className='text-3xl md:text-5xl font-bold text-gray-900 leading-tight'>
-						Our Services
+						We Create Stories That Move People.
 					</h1>
-					<p className='text-gray-700 text-lg leading-relaxed max-w-2xl'>
-						At Explore360, we blend strategy and creativity to help
-						you <strong>start, grow, and thrive</strong> across
-						Africa. From business consulting to world-class media
-						production, we provide end-to-end solutions that unlock
-						growth, reduce risk, and bring your vision to life.
+					<p className='text-gray-700 text-lg leading-relaxed max-w-2xl mx-auto lg:mx-0'>
+						At <strong>Explore 360</strong>, we’re more than a
+						media production company — we’re storytellers, creatives,
+						and technical experts dedicated to transforming your
+						vision into powerful, unforgettable experiences.
 					</p>
+					<div className='flex flex-col sm:flex-row gap-4 justify-center lg:justify-start'>
+						<motion.button
+							whileHover={{ scale: 1.05 }}
+							whileTap={{ scale: 0.95 }}
+							className='bg-primary-brown hover:bg-primary-brown/90 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 shadow-lg'
+						>
+							See Our Work
+						</motion.button>
+						<motion.button
+							whileHover={{ scale: 1.05 }}
+							whileTap={{ scale: 0.95 }}
+							className='bg-light-brown hover:bg-light-brown/90 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 shadow-lg'
+						>
+							Let’s Collaborate
+						</motion.button>
+					</div>
 				</div>
 
 				{/* Image */}
@@ -38,7 +53,7 @@ const ServiceHero = () => {
 					<div className='relative w-full aspect-[4/3]'>
 						<Image
 							src={why}
-							alt='Explore360 Services'
+							alt='Media production in action'
 							fill
 							className='object-cover rounded-2xl shadow-lg'
 							sizes='(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 50vw'

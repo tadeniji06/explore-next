@@ -1,53 +1,66 @@
 "use client";
-import { stu1 } from "@/assets";
+
+import { motion } from "framer-motion";
 import Image from "next/image";
+import { stu2 } from "@/assets";
 
 const AboutHero = () => {
 	return (
-		<div className='relative'>
-			<div className='w-full h-[400px] md:h-[600px] relative overflow-hidden'>
-				{/* Background Image */}
+		<section className='relative w-full h-[80vh] flex items-center justify-center overflow-hidden'>
+			{/* Background Image */}
+			<div className='absolute inset-0'>
 				<Image
-					priority
-					src={stu1}
-					alt='About Explore360 background'
+					src={stu2}
+					alt='Media Production Team'
 					fill
-					className='object-cover object-center transition-opacity duration-1000 ease-in-out'
-					quality={90}
+					className='object-cover brightness-75'
+					priority
 				/>
-
-				{/* Dark overlay */}
-				<div className='absolute inset-0 bg-black/60 z-10' />
-
-				{/* Content */}
-				<div className='relative z-20 flex items-center justify-center h-full'>
-					<div className='flex flex-col gap-6 text-white items-center px-4 max-w-4xl mx-auto text-center'>
-						{/* Main heading */}
-						<h1 className='text-4xl md:text-6xl font-bold leading-tight'>
-							About Explore360
-						</h1>
-
-						{/* Subheading */}
-						<p className='text-lg md:text-xl font-medium leading-relaxed max-w-3xl'>
-							We are your trusted partner for business expansion,
-							trade facilitation, and authentic African exploration—
-							equipping you to grow confidently in one of the world’s
-							most dynamic regions.
-						</p>
-
-						{/* Buttons */}
-						<div className='flex flex-col sm:flex-row gap-4 mt-4'>
-							<button className='bg-primary-brown hover:bg-primary-brown/90 text-white px-8 py-3 rounded-xl font-semibold transition-colors duration-200'>
-								Explore Our Services
-							</button>
-							<button className='bg-light-brown hover:bg-light-brown/90 text-white px-8 py-3 rounded-xl font-semibold transition-colors duration-200'>
-								Book a Consultation
-							</button>
-						</div>
-					</div>
-				</div>
+				<div className='absolute inset-0 bg-black/40' />{" "}
+				{/* overlay */}
 			</div>
-		</div>
+
+			{/* Content */}
+			<motion.div
+				initial={{ opacity: 0, y: 40 }}
+				whileInView={{ opacity: 1, y: 0 }}
+				transition={{ duration: 0.9, ease: "easeOut" }}
+				className='relative z-10 text-center px-6 max-w-4xl'
+			>
+				<h1 className='text-4xl md:text-6xl font-extrabold text-white drop-shadow-lg'>
+					We Create Stories That Move People
+				</h1>
+				<p className='mt-6 text-lg md:text-xl text-gray-200 leading-relaxed'>
+					At{" "}
+					<span className='font-semibold text-white'>
+						Explore 360
+					</span>
+					, we’re more than just a media production company — we’re
+					storytellers, creators, and innovators. From concept to
+					final cut, we craft content that captivates, connects, and
+					inspires.
+				</p>
+
+				<div className='mt-8 flex flex-wrap items-center justify-center gap-4'>
+					<motion.a
+						href='/'
+						whileHover={{ scale: 1.05 }}
+						whileTap={{ scale: 0.95 }}
+						className='px-6 py-3 rounded-full bg-[#D24726] text-white font-semibold shadow-md hover:bg-[#b63d1e] transition'
+					>
+						See Our Work
+					</motion.a>
+					<motion.a
+						href='/contact'
+						whileHover={{ scale: 1.05 }}
+						whileTap={{ scale: 0.95 }}
+						className='px-6 py-3 rounded-full bg-white text-[#D24726] font-semibold shadow-md hover:bg-gray-100 transition'
+					>
+						Let’s Collaborate
+					</motion.a>
+				</div>
+			</motion.div>
+		</section>
 	);
 };
 

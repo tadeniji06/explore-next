@@ -1,4 +1,5 @@
 import logo from "./logo.png";
+import logo2 from './ee360.png';
 import heroImage from "./hero.jpg";
 import about from "./about.jpg";
 import sa from "./images/sa.png";
@@ -34,6 +35,7 @@ export {
 	logo,
 	mag,
 	ak1,
+	logo2,
 	ak2,
 	stu1,
 	DO,
