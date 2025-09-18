@@ -27,8 +27,10 @@ import isamil from "./pp/ismail.jpeg";
 import peace from "./pp/pix.jpeg";
 import victoria from "./pp/vic.jpeg";
 import DO from "./pp/do.jpeg";
+import mag from './magazine.png'
 export {
 	logo,
+	mag,
 	stu1,
 	DO,
 	stu2,
