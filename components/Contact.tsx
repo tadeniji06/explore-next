@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { socials } from "@/utils/data";
 import { Icon } from "@iconify/react/dist/iconify.js";
-import Ready from "./about/Ready";
+// import Ready from "./about/Ready";
 
 const Contact = () => {
 	return (
@@ -148,7 +148,7 @@ const Contact = () => {
 				</motion.form>
 			</div>
 
-			<Ready />
+			{/* <Ready /> */}
 		</section>
 	);
 };

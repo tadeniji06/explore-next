@@ -32,8 +32,10 @@ import mag from './magazine.png';
 import mag2 from './i1.png';
 import ak1 from './ak.jpeg';
 import ak2 from './Ak2.jpeg';
+import festival from './culture.jpg';
 export {
 	logo,
+	festival,
 	mag,
 	mag2,
 	ak1,

@@ -31,6 +31,16 @@ const ServiceBody = () => {
 			desc: "Podcasts, voiceovers, original music, and sound design — we craft the sound that shapes your story.",
 		},
 		{
+			name: "Film Production",
+			icon: <Camera size={28} />,
+			desc: "Short films, documentaries, and narrative projects that captivate and inspire.",
+		},
+		{
+			name: "TV Production",
+			icon: <Film size={28} />,
+			desc: "Commercials, branded content, and promotional videos tailored for television audiences.",
+		},
+		{
 			name: "Motion Graphics & Animation",
 			icon: <LineChart size={28} />,
 			desc: "Explainer videos, animated logos, and motion graphics that bring complex ideas to life.",
