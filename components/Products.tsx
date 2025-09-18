@@ -12,7 +12,7 @@ const Products = () => {
 			image: mag,
 			description:
 				"A premier publication highlighting Africa's diverse cultures, innovations, and success stories.",
-			link: "https://showcaseafricaonline.com/magazines",
+			link: "https://showcaseafricaonline.com",
 		},
 		{
 			name: "Showcase Africa TV",
@@ -24,38 +24,48 @@ const Products = () => {
 	];
 
 	return (
-		<div className='min-h-screen bg-black text-white'>
+		<div className="min-h-screen bg-black text-white">
 			{/* Hero Section */}
-			<section className='relative h-[70vh] flex items-center justify-center text-center'>
+			<section className="relative h-[70vh] flex items-center justify-center text-center">
 				<Image
 					src={stu2}
-					alt='Showcase Africa Studio'
+					alt="Showcase Africa Studio"
 					fill
-					className='object-cover'
+					className="object-cover"
 					priority
 				/>
-				<div className='absolute inset-0 bg-black/80' />
-				<div className='relative z-10 px-6'>
-					<h1 className='text-4xl md:text-6xl font-bold text-[var(--color-light-brown)]'>
+				<div className="absolute inset-0 bg-black/60" />
+				<div className="relative z-10 px-6">
+					<motion.h1
+						initial={{ opacity: 0, y: 30 }}
+						whileInView={{ opacity: 1, y: 0 }}
+						transition={{ duration: 0.6 }}
+						className="text-4xl md:text-6xl font-bold text-[var(--color-light-brown)]"
+					>
 						Our Products
-					</h1>
-					<p className='mt-4 text-lg md:text-xl text-gray-300 max-w-2xl mx-auto'>
-						Platforms built to showcase Africa’s creativity, culture,
-						and innovation to the world.
-					</p>
+					</motion.h1>
+					<motion.p
+						initial={{ opacity: 0, y: 20 }}
+						whileInView={{ opacity: 1, y: 0 }}
+						transition={{ duration: 0.6, delay: 0.2 }}
+						className="mt-4 text-lg md:text-xl text-gray-300 max-w-2xl mx-auto"
+					>
+						Platforms built to showcase Africa’s creativity, culture, and
+						innovation to the world.
+					</motion.p>
 				</div>
 			</section>
 
 			{/* Products Section */}
-			<section className='py-20 px-6 md:px-20'>
-				<div className='grid md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-6xl mx-auto'>
+			<section className="py-20 px-6 md:px-20">
+				<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-6xl mx-auto">
 					{OurProducts.map((product, i) => (
 						<motion.div
 							key={i}
 							initial={{ opacity: 0, y: 40 }}
 							whileInView={{ opacity: 1, y: 0 }}
 							transition={{ duration: 0.5, delay: i * 0.15 }}
-							className='relative flex flex-col items-center'
+							className="relative flex flex-col items-center"
 						>
 							{/* Tilted Image */}
 							<div
@@ -67,7 +77,7 @@ const Products = () => {
 									src={product.image}
 									alt={product.name}
 									fill
-									className='object-cover'
+									className="object-cover"
 								/>
 							</div>
 
@@ -85,16 +95,16 @@ const Products = () => {
 							</div>
 
 							{/* Description */}
-							<p className='mt-3 text-gray-400 text-center max-w-xs'>
+							<p className="mt-3 text-gray-400 text-center max-w-xs">
 								{product.description}
 							</p>
 
 							{/* CTA */}
 							<Link
 								href={product.link}
-								target='_blank'
-								rel='noopener noreferrer'
-								className='mt-3 inline-block bg-[var(--color-primary-brown)] text-white px-4 py-2 rounded-lg font-medium hover:bg-[var(--color-light-brown)] transition'
+								target="_blank"
+								rel="noopener noreferrer"
+								className="mt-3 inline-block bg-[var(--color-primary-brown)] text-white px-4 py-2 rounded-lg font-medium hover:bg-[var(--color-light-brown)] transition"
 							>
 								Explore →
 							</Link>
