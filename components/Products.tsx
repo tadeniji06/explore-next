@@ -2,14 +2,14 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { mag, stu2 } from "@/assets";
+import { mag, mag2, stu2 } from "@/assets";
 import Link from "next/link";
 
 const Products = () => {
 	const OurProducts = [
 		{
 			name: "Showcase Africa Magazine",
-			image: mag,
+			image: mag2,
 			description:
 				"A premier publication highlighting Africa's diverse cultures, innovations, and success stories.",
 			link: "https://showcaseafricaonline.com",

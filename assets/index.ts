@@ -29,11 +29,13 @@ import peace from "./pp/pix.jpeg";
 import victoria from "./pp/vic.jpeg";
 import DO from "./pp/do.jpeg";
 import mag from './magazine.png';
+import mag2 from './i1.png';
 import ak1 from './ak.jpeg';
 import ak2 from './Ak2.jpeg';
 export {
 	logo,
 	mag,
+	mag2,
 	ak1,
 	logo2,
 	ak2,

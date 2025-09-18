@@ -13,6 +13,7 @@ import {
 	victoria,
 	DO,
 	ak2,
+	ak1,
 } from "@/assets";
 
 const teamMembers = [
@@ -23,7 +24,7 @@ const teamMembers = [
 	},
 	{
 		name: "Akinsola Oladipo",
-		img: ak2,
+		img: ak1,
 		role: "Head of Operations",
 	},
 	{
@@ -81,7 +82,7 @@ const Team = () => {
 						transition={{ duration: 0.5, delay: i * 0.1 }}
 						className='group bg-zinc-900 p-6 rounded-2xl border border-zinc-800 hover:border-[var(--color-light-brown)] transition'
 					>
-						<div className='relative w-28 h-28 mx-auto rounded-full overflow-hidden border-4 border-[var(--color-primary-brown)] shadow-md mb-4'>
+						<div className='relative w-[150px] h-[150px] mx-auto rounded-full overflow-hidden border-4 border-[var(--color-primary-brown)] shadow-md mb-4'>
 							<Image
 								src={member.img}
 								alt={member.name}

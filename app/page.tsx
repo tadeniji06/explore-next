@@ -14,7 +14,7 @@ export default function Home() {
 			<hr className='border border-gray-400' />
 			{/* <Consult /> */}
 			<hr className='border border-gray-400' />
-			<Chronicles />
+			{/* <Chronicles /> */}
 		</>
 	);
 }
