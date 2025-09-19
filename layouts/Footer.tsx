@@ -104,11 +104,8 @@ const Footer = () => {
 						<div className='text-white text-sm'>
 							<p>
 								Developed by{" "}
-								<Link
-									target='_blank'
-									href='https://olutunmise.vercel.app'
-								>
-									princeOTF
+								<Link target='_blank' href='https://tech360online.com'>
+									BTech360
 								</Link>
 							</p>
 						</div>
