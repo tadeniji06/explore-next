@@ -5,14 +5,14 @@ import Footer from "@/layouts/Footer";
 import ClarityScript from "@/components/Clarity";
 
 export const metadata: Metadata = {
-	title: "Explore 360 - Business Expansion Across Africa",
+	title: "Explore 360 - Media Production Company in Africa",
 	description:
-		"Leading business expansion consultancy specializing in African markets. Expert real estate investment opportunities, comprehensive travel services, and strategic market entry solutions across Africa's fastest-growing economies.",
+		"Leading media production consultancy specializing in African markets. Expert real estate investment opportunities, comprehensive travel services, and strategic market entry solutions across Africa's fastest-growing economies.",
 
 	// Enhanced keywords for better SEO
 	keywords: [
-		"Business Expansion Africa",
-		"African Market Entry",
+		"Media Production Africa",
+		"African Film Industry",
 		"Real Estate Investment Africa",
 		"Travel Agency Africa",
 		"Business Consultancy Africa",

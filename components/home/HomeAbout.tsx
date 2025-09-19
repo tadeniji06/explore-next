@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { about } from "@/assets";
+import { about, media } from "@/assets";
 import Link from "next/link";
 
 const HomeAbout = () => {
@@ -135,7 +135,7 @@ const HomeAbout = () => {
 						className='relative overflow-hidden rounded-2xl shadow-2xl h-[400px] md:h-[500px]'
 					>
 						<Image
-							src={about}
+							src={media}
 							alt='Explore360 Media Production Team'
 							fill
 							className='object-cover'
