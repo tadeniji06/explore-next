@@ -14,6 +14,7 @@ import {
 	DO,
 	ak2,
 	ak1,
+	ak3,
 } from "@/assets";
 
 const teamMembers = [
@@ -24,7 +25,7 @@ const teamMembers = [
 	},
 	{
 		name: "Akinsola Oladipo",
-		img: ak1,
+		img: ak3,
 		role: "Head of Operations",
 	},
 	{
