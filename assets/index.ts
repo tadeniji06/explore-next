@@ -1,5 +1,5 @@
 import logo from "./logo.png";
-import logo2 from './ee360.png';
+import logo2 from "./ee360.png";
 import heroImage from "./hero.jpg";
 import about from "./about.jpg";
 import sa from "./images/sa.png";
@@ -28,12 +28,14 @@ import isamil from "./pp/ismail.jpeg";
 import peace from "./pp/pix.jpeg";
 import victoria from "./pp/vic.jpeg";
 import DO from "./pp/do.jpeg";
-import mag from './magazine.png';
-import mag2 from './i1.png';
-import ak1 from './ak.jpeg';
-import ak2 from './Ak2.jpeg';
-import ak3 from './pp/HayKay.jpg'
-import festival from './culture.jpg';
+import mag from "./magazine.png";
+import mag2 from "./i1.png";
+import maya1 from "./pp/maya.jpg";
+import maya2 from "./pp/maya2.jpg";
+import ak1 from "./ak.jpeg";
+import ak2 from "./Ak2.jpeg";
+import ak3 from "./pp/HayKay.jpg";
+import festival from "./culture.jpg";
 export {
 	logo,
 	media,
@@ -42,6 +44,8 @@ export {
 	mag,
 	mag2,
 	ak1,
+	maya1,
+	maya2,
 	logo2,
 	ak2,
 	stu1,

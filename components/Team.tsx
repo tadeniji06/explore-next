@@ -5,6 +5,8 @@ import { Camera, Video, PenTool, Layers, Share2 } from "lucide-react";
 
 import {
 	stu1,
+	maya1,
+	maya2,
 	stu2,
 	gift,
 	isaac,
@@ -32,6 +34,11 @@ const teamMembers = [
 		name: "Ismail B. Odubowale",
 		img: isamil,
 		role: "Creative Director",
+	},
+	{
+		name: "Darasimi",
+		img: maya1,
+		role: "Production Assistant",
 	},
 	{
 		name: "Isaac",
