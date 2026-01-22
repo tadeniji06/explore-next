@@ -1,6 +1,6 @@
 import ServiceBody from "@/components/services/ServiceBody";
 import ServiceHero from "@/components/services/ServiceHero";
-import type { Metadata } from "next"
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
 	title:
@@ -11,11 +11,11 @@ export const metadata: Metadata = {
 		title: "Services – Business Expansion Across Africa",
 		description:
 			"Discover opportunities to expand your business across Africa. Network with leaders, explore markets, and grow your influence on the continent.",
-		url: "https://theexplore360.com/services",
-		siteName: "Explore 360",
+		url: "https://thisisbusiness360.com/services",
+		siteName: "Business 360",
 		images: [
 			{
-				url: "https://theexplore360.com/logo.png",
+				url: "https://thisisbusiness360.com/logo.png",
 				width: 1200,
 				height: 630,
 				alt: "Business Expansion Tours Across Africa",
@@ -29,15 +29,15 @@ export const metadata: Metadata = {
 		title: "Services – Business Expansion Across Africa",
 		description:
 			"Unlock opportunities across Africa. Exclusive tours for businesses ready to scale regionally.",
-		images: ["https://theexplore360.com/logo.png"],
+		images: ["https://thisisbusiness360.com/logo.png"],
 	},
 };
 const page = () => {
-  return (
-    <>
-    <ServiceHero />
-    <ServiceBody />
-    </>
-  )
-}
-export default page
+	return (
+		<>
+			<ServiceHero />
+			<ServiceBody />
+		</>
+	);
+};
+export default page;

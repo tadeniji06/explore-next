@@ -34,7 +34,7 @@ const TourHero = () => {
 
 						{/* Subtitle */}
 						<p className='text-lg md:text-xl font-medium'>
-							Explore360 heads to SouthAfrica in November
+							Business 360 heads to SouthAfrica in November
 						</p>
 
 						{/* Date */}

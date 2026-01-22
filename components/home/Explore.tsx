@@ -28,7 +28,7 @@ const Explore = () => {
 		visible: {
 			opacity: 1,
 			y: 0,
-			transition: { duration: 0.6, ease: "easeOut" },
+			transition: { duration: 0.6 },
 		},
 	};
 
@@ -37,7 +37,7 @@ const Explore = () => {
 		visible: {
 			opacity: 1,
 			scale: 1,
-			transition: { duration: 0.8, ease: "easeOut", delay: 0.3 },
+			transition: { duration: 0.8, delay: 0.3 },
 		},
 	};
 
@@ -46,7 +46,7 @@ const Explore = () => {
 		visible: {
 			opacity: 1,
 			y: 0,
-			transition: { duration: 0.5, ease: "easeOut" },
+			transition: { duration: 0.5 },
 		},
 	};
 
@@ -71,10 +71,10 @@ const Explore = () => {
 						variants={itemVariants}
 						className='text-gray-600 text-lg max-w-4xl mx-auto leading-relaxed'
 					>
-						Explore360 Business Tours combine strategic business
+						Business 360 Business Tours combine strategic business
 						visits with immersive cultural experiences, giving you
-						unmatched insights into Africa's leading markets while
-						enjoying its rich heritage and vibrant lifestyles.
+						unmatched insights into leading markets while enjoying its
+						rich heritage and vibrant lifestyles.
 					</motion.p>
 				</motion.div>
 
@@ -125,7 +125,7 @@ const Explore = () => {
 									transition={{ delay: 0.7, duration: 0.6 }}
 									className='text-xl md:text-2xl mb-8'
 								>
-									Explore360 heads to Kenya in September
+									Business 360 heads to Kenya in September
 								</motion.p>
 								<motion.button
 									initial={{ opacity: 0, y: 20 }}

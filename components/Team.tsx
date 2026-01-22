@@ -76,7 +76,7 @@ const Team = () => {
 					Meet The Team
 				</motion.h2>
 				<p className='text-gray-400 mt-2'>
-					The minds & hands powering Explore360’s creativity
+					The minds & hands powering Business 360’s creativity
 				</p>
 			</div>
 

@@ -8,53 +8,53 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 	// Create sitemap entries for blog posts
 	const blogEntries: MetadataRoute.Sitemap = blogPosts.map(
 		(post: any) => ({
-			url: `https://www.theexplore360.com/blog/${post.slug.current}`,
+			url: `https://thisisbusiness360.com/blog/${post.slug.current}`,
 			lastModified: new Date(post.publishedAt),
 			changeFrequency: "monthly" as const,
 			priority: 0.6,
-		})
+		}),
 	);
 
 	// Static pages
 	const staticPages: MetadataRoute.Sitemap = [
 		{
-			url: "https://www.theexplore360.com",
+			url: "https://thisisbusiness360.com",
 			lastModified: new Date(),
 			changeFrequency: "yearly",
 			priority: 1,
 		},
 		{
-			url: "https://www.theexplore360.com/about",
+			url: "https://thisisbusiness360.com/about",
 			lastModified: new Date(),
 			changeFrequency: "monthly",
 			priority: 0.8,
 		},
 		{
-			url: "https://www.theexplore360.com/services",
+			url: "https://thisisbusiness360.com/services",
 			lastModified: new Date(),
 			changeFrequency: "monthly",
 			priority: 0.8,
 		},
 		{
-			url: "https://www.theexplore360.com/team",
+			url: "https://thisisbusiness360.com/team",
 			lastModified: new Date(),
 			changeFrequency: "weekly",
 			priority: 0.9,
 		},
 		{
-			url: "https://www.theexplore360.com/products",
+			url: "https://thisisbusiness360.com/products",
 			lastModified: new Date(),
 			changeFrequency: "weekly",
 			priority: 0.7,
 		},
 		{
-			url: "https://www.theexplore360.com/blog",
+			url: "https://thisisbusiness360.com/blog",
 			lastModified: new Date(),
 			changeFrequency: "weekly",
 			priority: 0.7,
 		},
 		{
-			url: "https://www.theexplore360.com/contact",
+			url: "https://thisisbusiness360.com/contact",
 			lastModified: new Date(),
 			changeFrequency: "weekly",
 			priority: 0.7,

@@ -36,8 +36,10 @@ import ak1 from "./ak.jpeg";
 import ak2 from "./Ak2.jpeg";
 import ak3 from "./pp/HayKay.jpg";
 import festival from "./culture.jpg";
+import b360 from "./b360.png";
 export {
 	logo,
+	b360,
 	media,
 	ak3,
 	festival,

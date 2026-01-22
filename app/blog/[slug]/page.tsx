@@ -15,22 +15,23 @@ export async function generateMetadata({
 
 	if (!post) {
 		return {
-			title: "Post Not Found | Explore360 Blog",
-			description: "This blog post could not be found on Explore360.",
+			title: "Post Not Found | Business 360 Blog",
+			description:
+				"This blog post could not be found on Business 360.",
 		};
 	}
 
 	const description =
 		post.body?.[0]?.children?.[0]?.text?.slice(0, 160) ||
-		`Read ${post.title} on Explore360 Blog and learn strategies for African market growth.`;
+		`Read ${post.title} on Business 360 Blog and learn strategies for African market growth.`;
 
 	return {
-		title: `${post.title} | Explore360 Blog`,
+		title: `${post.title} | Business 360 Blog`,
 		description,
 		openGraph: {
 			title: post.title,
 			description,
-			url: `https://theexplore360.com/blog/${slug}`,
+			url: `https://thisisbusiness360.com/blog/${slug}`,
 			images: post.mainImage
 				? [
 						{
@@ -39,7 +40,7 @@ export async function generateMetadata({
 							height: 630,
 							alt: post.title,
 						},
-				  ]
+					]
 				: [],
 		},
 		twitter: {
@@ -59,7 +60,7 @@ const BlogPostPage = async ({ params }: BlogPostPageProps) => {
 
 	const relatedPosts = await getRelatedPosts(
 		post.categories || [],
-		post._id
+		post._id,
 	);
 	return <BlogPost post={post} relatedPosts={relatedPosts} />;
 };

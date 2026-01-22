@@ -48,7 +48,7 @@ const ComingSoon = () => {
 				transition={{ delay: 1.2 }}
 				className='mt-12 text-gray-500 text-sm'
 			>
-				© {new Date().getFullYear()} Explore360 Africa. All rights
+				© {new Date().getFullYear()} Business 360 Africa. All rights
 				reserved.
 			</motion.p>
 		</section>

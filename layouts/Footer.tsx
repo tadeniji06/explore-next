@@ -1,4 +1,4 @@
-import { logo2 } from "../assets";
+import { b360 } from "../assets";
 import Link from "next/link";
 import { navLinks, socials } from "../utils/data";
 import Image from "next/image";
@@ -7,18 +7,18 @@ const Footer = () => {
 	const currentYear = new Date().getFullYear();
 
 	return (
-		<footer className='bg-primary-brown text-white'>
+		<footer className='bg-white text-primary-blue'>
 			<div className='max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8'>
 				<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12'>
 					{/* Company Info Section */}
 					<div className='lg:col-span-2'>
 						<div className='mb-6'>
-							<div className='w-[350px] h-[200px] mb-4'>
+							<div className='mb-2'>
 								<Link href='/'>
 									<Image
-										className='w-full h-full object-cover'
-										src={logo2}
-										alt='B360 Development Logo'
+										className='md:w-auto md:h-[50px] w-[150px] h-[80px] object-contain'
+										src={b360}
+										alt='Business 360 Logo'
 									/>
 								</Link>
 							</div>
@@ -31,7 +31,7 @@ const Footer = () => {
 									<Link
 										key={index}
 										href={social.link}
-										className='flex items-center gap-2 text-gray-300 hover:text-white transition-colors duration-200 group'
+										className='flex items-center gap-2 text-primary-blue hover:text-white transition-colors duration-200 group'
 										target='_blank'
 										rel='noopener noreferrer'
 									>
@@ -50,9 +50,9 @@ const Footer = () => {
 						</div>
 
 						{/* Copyright */}
-						<div className='text-white text-sm'>
+						<div className='text-primary-blue text-sm'>
 							<p>
-								&copy; {currentYear} B360 Development. All rights
+								&copy; {currentYear} Business 360. All rights
 								reserved.
 							</p>
 						</div>
@@ -68,7 +68,7 @@ const Footer = () => {
 								<li key={index}>
 									<Link
 										href={link.link}
-										className='text-gray-300 hover:text-white transition-colors duration-200 text-sm block py-1'
+										className='text-primary-blue hover:text-white transition-colors duration-200 text-sm block py-1'
 									>
 										{link.name}
 									</Link>
@@ -82,7 +82,7 @@ const Footer = () => {
 						<h3 className='text-lg font-semibold mb-4'>
 							Information
 						</h3>
-						<div className='space-y-3 text-sm text-gray-300'>
+						<div className='space-y-3 text-sm text-primary-blue'>
 							<div className='flex items-center gap-2'>
 								{/* <Icon icon="mdi:email-outline" className="w-4 h-4" /> */}
 								<span>Upcoming Tour</span>
@@ -101,10 +101,13 @@ const Footer = () => {
 				{/* Bottom Border */}
 				<div className='border-t border-white mt-12 pt-8'>
 					<div className='flex flex-col sm:flex-row justify-between items-center gap-4'>
-						<div className='text-white text-sm'>
+						<div className='text-primary-blue text-sm'>
 							<p>
 								Developed by{" "}
-								<Link target='_blank' href='https://tech360online.com'>
+								<Link
+									target='_blank'
+									href='https://tech360online.com'
+								>
 									BTech360
 								</Link>
 							</p>
@@ -112,13 +115,13 @@ const Footer = () => {
 						<div className='flex gap-6 text-sm'>
 							<Link
 								href='/privacy'
-								className='text-gray-400 hover:text-white transition-colors duration-200'
+								className='text-primary-blue hover:text-white transition-colors duration-200'
 							>
 								Privacy Policy
 							</Link>
 							<Link
 								href='/terms'
-								className='text-gray-400 hover:text-white transition-colors duration-200'
+								className='text-primary-blue hover:text-white transition-colors duration-200'
 							>
 								Terms of Service
 							</Link>

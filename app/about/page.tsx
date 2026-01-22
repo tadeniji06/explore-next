@@ -14,11 +14,11 @@ export const metadata: Metadata = {
 		title: "About – Business Expansion Across Africa",
 		description:
 			"Discover opportunities to expand your business across Africa. Network with leaders, explore markets, and grow your influence on the continent.",
-		url: "https://theexplore360.com/about",
-		siteName: "Explore 360",
+		url: "https://thisisbusiness360.com/about",
+		siteName: "Business 360",
 		images: [
 			{
-				url: "https://theexplore360.com/logo.png",
+				url: "https://thisisbusiness360.com/logo.png",
 				width: 1200,
 				height: 630,
 				alt: "Business Expansion Tours Across Africa",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
 		title: "About – Business Expansion Across Africa",
 		description:
 			"Unlock opportunities across Africa. Exclusive tours for businesses ready to scale regionally.",
-		images: ["https://theexplore360.com/logo.png"],
+		images: ["https://thisisbusiness360.com/logo.png"],
 	},
 };
 

@@ -1,6 +1,6 @@
-import Spotlight from "@/components/tour/Spotlight";
+// import Spotlight from "@/components/tour/Spotlight";
 import TourHero from "@/components/tour/TourHero";
-import UpcomingTours from "@/components/tour/UpcomingTours";
+// import UpcomingTours from "@/components/tour/UpcomingTours";
 import WhatToExpect from "@/components/tour/WhatToExpect";
 import type { Metadata } from "next";
 
@@ -13,11 +13,11 @@ export const metadata: Metadata = {
 		title: "Tours – Business Expansion Across Africa",
 		description:
 			"Discover opportunities to expand your business across Africa. Network with leaders, explore markets, and grow your influence on the continent.",
-		url: "https://theexplore360.com/tour",
-		siteName: "Explore 360",
+		url: "https://thisisbusiness360.com/tour",
+		siteName: "Business 360",
 		images: [
 			{
-				url: "https://theexplore360.com/logo.png",
+				url: "https://thisisbusiness360.com/logo.png",
 				width: 1200,
 				height: 630,
 				alt: "Business Expansion Tours Across Africa",
@@ -31,16 +31,16 @@ export const metadata: Metadata = {
 		title: "Tours – Business Expansion Across Africa",
 		description:
 			"Unlock opportunities across Africa. Exclusive tours for businesses ready to scale regionally.",
-		images: ["https://theexplore360.com/logo.png"],
+		images: ["https://thisisbusiness360.com/logo.png"],
 	},
 };
 const page = () => {
 	return (
 		<>
 			<TourHero />
-			<UpcomingTours />
+			{/* <UpcomingTours /> */}
 			<WhatToExpect />
-			<Spotlight />
+			{/* <Spotlight /> */}
 		</>
 	);
 };

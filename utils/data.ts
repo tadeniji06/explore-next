@@ -3,15 +3,19 @@ export const navLinks = [
 		name: "Home",
 		link: "/",
 	},
-		{
+	{
 		name: "Our Services",
 		link: "/services",
+	},
+	{
+		name: "B360TV",
+		link: "/tv",
 	},
 	{
 		name: "Our Team",
 		link: "/team",
 	},
-	
+
 	{
 		name: "Our Products",
 		link: "/products",

@@ -50,10 +50,10 @@ const Contact = () => {
 						<p>
 							📧 Email:{" "}
 							<a
-								href='mailto:hello@explore360.africa'
+								href='mailto:hello@business360.africa'
 								className='text-light-brown hover:underline'
 							>
-								hello@explore360.africa
+								hello@business360.africa
 							</a>
 						</p>
 					</div>
@@ -75,14 +75,14 @@ const Contact = () => {
 										item.name === "Facebook"
 											? "mdi:facebook"
 											: item.name === "Twitter"
-											? "mdi:twitter"
-											: item.name === "Instagram"
-											? "mdi:instagram"
-											: item.name === "LinkedIn"
-											? "mdi:linkedin"
-											: item.name === "WhatsApp"
-											? "mdi:whatsapp"
-											: "mdi:account"
+												? "mdi:twitter"
+												: item.name === "Instagram"
+													? "mdi:instagram"
+													: item.name === "LinkedIn"
+														? "mdi:linkedin"
+														: item.name === "WhatsApp"
+															? "mdi:whatsapp"
+															: "mdi:account"
 									}
 									width='28'
 									height='28'

@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { navLinks } from "../utils/data";
-import { logo2 } from "../assets/index";
+import { b360 } from "../assets/index";
 import Link from "next/link";
 import { Icon } from "@iconify/react/dist/iconify.js";
 import Image from "next/image";
@@ -18,15 +18,15 @@ const Header = () => {
 	};
 
 	return (
-		<header className='sticky top-0 z-50 bg-primary-brown border-b shadow-lg'>
-			<div className='flex items-center justify-between px-4 max-w-8xl mx-auto lg:px-6'>
+		<header className='sticky top-0 z-50 bg-white border-b shadow-lg'>
+			<div className='flex items-center justify-between px-4 md:p-10 p-5 max-w-8xl mx-auto lg:px-6'>
 				{/* Logo */}
 				<div className='cursor-pointer flex-shrink-0'>
 					<Link href='/' onClick={closeMobileMenu}>
 						<Image
-							className='w-[300px] h-[150px] object-cover'
-							src={logo2}
-							alt='Logo'
+							className='md:w-auto md:h-[50px] w-[150px] h-[60px] object-contain'
+							src={b360}
+							alt='Business 360 Logo'
 						/>
 					</Link>
 				</div>
@@ -38,7 +38,7 @@ const Header = () => {
 							<li key={index} className='cursor-pointer'>
 								<Link
 									href={link.link}
-									className='text-white hover:text-blue-600 transition-colors duration-200 font-medium'
+									className='text-primary-blue hover:text-primary-brown transition-colors duration-200 font-medium'
 								>
 									{link.name}
 								</Link>
@@ -66,7 +66,7 @@ const Header = () => {
 				>
 					<Icon
 						icon={isMobileMenuOpen ? "mdi:close" : "mdi:menu"}
-						className='w-6 h-6 text-white'
+						className='w-6 h-6 text-primary-blue'
 					/>
 				</button>
 			</div>
@@ -100,7 +100,7 @@ const Header = () => {
 						>
 							<Icon
 								icon='mdi:close'
-								className='w-5 h-5 text-gray-700'
+								className='w-5 h-5 text-primary-blue'
 							/>
 						</button>
 					</div>

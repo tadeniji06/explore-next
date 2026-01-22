@@ -24,17 +24,18 @@ const Hero = () => {
 				<div className='flex flex-col gap-6 text-white items-center px-4 max-w-5xl mx-auto text-center'>
 					{/* Heading */}
 					<h1 className='text-4xl md:text-6xl font-extrabold leading-tight'>
-						Amplifying Africa’s Voice <br />
+						Shaping the Narrative of <br />
 						<span className='text-[var(--color-light-brown)]'>
-							Through Powerful Stories
+							Global Business & Innovation
 						</span>
 					</h1>
 
 					{/* Subheading */}
 					<p className='text-lg md:text-xl font-medium leading-relaxed max-w-3xl text-gray-200'>
-						From TV Production to Magazines to Event Curation, we spotlight Africa’s creativity,
-						culture, and innovation — helping brands and talents grow
-						with confidence.
+						Publication • Event • TV • People • Company • Industry{" "}
+						<br />
+						Connecting the dots between Tech, Finance, and the Future
+						of Work. See who is winning the global tech race.
 					</p>
 
 					{/* Buttons */}

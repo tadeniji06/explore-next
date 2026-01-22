@@ -33,7 +33,7 @@ const AboutHero = () => {
 				<p className='mt-6 text-lg md:text-xl text-gray-200 leading-relaxed'>
 					At{" "}
 					<span className='font-semibold text-white'>
-						Explore 360
+						Business 360
 					</span>
 					, we’re more than just a media production company — we’re
 					storytellers, creators, and innovators. From concept to
@@ -46,7 +46,7 @@ const AboutHero = () => {
 						href='/'
 						whileHover={{ scale: 1.05 }}
 						whileTap={{ scale: 0.95 }}
-						className='px-6 py-3 rounded-full bg-[#D24726] text-white font-semibold shadow-md hover:bg-[#b63d1e] transition'
+						className='px-6 py-3 rounded-full bg-primary-blue text-white font-semibold shadow-md hover:bg-[#b63d1e] transition'
 					>
 						See Our Work
 					</motion.a>
@@ -54,7 +54,7 @@ const AboutHero = () => {
 						href='/contact'
 						whileHover={{ scale: 1.05 }}
 						whileTap={{ scale: 0.95 }}
-						className='px-6 py-3 rounded-full bg-white text-[#D24726] font-semibold shadow-md hover:bg-gray-100 transition'
+						className='px-6 py-3 rounded-full bg-white text-primary-blue font-semibold shadow-md hover:bg-gray-100 transition'
 					>
 						Let’s Collaborate
 					</motion.a>

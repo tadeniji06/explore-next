@@ -12,7 +12,7 @@ const HomeAbout = () => {
 		visible: (i = 0) => ({
 			opacity: 1,
 			y: 0,
-			transition: { duration: 0.7, delay: i * 0.2, ease: "easeOut" },
+			transition: { duration: 0.7, delay: i * 0.2 },
 		}),
 	};
 
@@ -21,7 +21,7 @@ const HomeAbout = () => {
 		visible: {
 			opacity: 1,
 			scale: 1,
-			transition: { duration: 0.8, ease: "easeOut", delay: 0.2 },
+			transition: { duration: 0.8, delay: 0.2 },
 		},
 	};
 
@@ -37,7 +37,7 @@ const HomeAbout = () => {
 						viewport={{ once: true, amount: 0.3 }}
 						className='inline-block text-light-brown font-semibold text-sm uppercase tracking-wide'
 					>
-						About Explore360
+						About Business 360
 					</motion.span>
 
 					<motion.h2
@@ -51,7 +51,7 @@ const HomeAbout = () => {
 						We Don’t Just Produce Content —
 						<span className='text-[var(--color-primary-brown)]'>
 							{" "}
-							We Create Impact
+							We Define the Future
 						</span>
 					</motion.h2>
 
@@ -65,12 +65,12 @@ const HomeAbout = () => {
 					>
 						At{" "}
 						<span className='font-semibold text-gray-800'>
-							Explore360
+							Business 360
 						</span>
-						, we’re more than just a media production company. We’re a
-						team of passionate storytellers, creative thinkers, and
-						technical experts dedicated to turning your ideas into
-						powerful, unforgettable visual experiences.
+						, we are the nexus of Publication, Events, and TV. We
+						explore the intersection of People, Companies, and
+						Industries, driving the conversation on Global Tech,
+						Finance, and Innovation.
 					</motion.p>
 
 					<motion.p
@@ -81,22 +81,11 @@ const HomeAbout = () => {
 						viewport={{ once: true, amount: 0.3 }}
 						className='text-gray-600 text-lg leading-relaxed'
 					>
-						From concept to final cut, we partner with you to create
-						content that{" "}
-						<span className='font-semibold text-gray-800'>
-							captivates
-						</span>
-						,{" "}
-						<span className='font-semibold text-gray-800'>
-							connects
-						</span>
-						, and{" "}
-						<span className='font-semibold text-gray-800'>
-							converts
-						</span>
-						. Whether it’s film, music, branded campaigns, or digital
-						storytelling, we craft visuals that not only look stunning
-						but drive real impact for your brand.
+						From Silicon Valley to Silicon Savannah, we track the
+						emerging technologies disrupting business. Our platform
+						empowers you with intelligence on the Digital Economy, AI,
+						and the Future of Work. We don't just report; we spotlight
+						the winners of tomorrow.
 					</motion.p>
 
 					<motion.div
@@ -136,7 +125,7 @@ const HomeAbout = () => {
 					>
 						<Image
 							src={media}
-							alt='Explore360 Media Production Team'
+							alt='Business 360 Media Production Team'
 							fill
 							className='object-cover'
 							sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw'

@@ -43,7 +43,7 @@ const Story = () => {
 						className='text-gray-700 text-base leading-relaxed max-w-3xl'
 					>
 						<p className='mb-4'>
-							Explore360 was born from a simple conviction: Africa’s
+							Business 360 was born from a simple conviction: Global
 							stories, markets, and opportunities deserve to be seen
 							on the global stage. What began as a boutique
 							consultancy for market entry and trade support has grown
@@ -53,9 +53,10 @@ const Story = () => {
 						<p>
 							From tailored consulting to curated business and leisure
 							experiences, we connect people, ideas, and opportunities
-							across borders. Today, Explore360 stands as a trusted
+							across borders. Today, Business 360 stands as a trusted
 							partner for organisations and individuals ready to
-							confidently expand, connect, and thrive across Africa.
+							confidently expand, connect, and thrive across the
+							globe.
 						</p>
 					</motion.div>
 				</div>

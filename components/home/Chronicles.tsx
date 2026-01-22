@@ -9,12 +9,12 @@ const Chronicles = () => {
 		<section className='py-20 px-6 bg-white'>
 			<div className='text-center mb-12'>
 				<h2 className='text-3xl md:text-4xl font-bold text-gray-900 leading-tight'>
-					African Business Chronicles
+					Global Business Chronicles
 				</h2>
 				<p className='mt-3 text-lg text-gray-600 max-w-2xl mx-auto'>
-					Your insider’s guide to Africa’s business evolution —
+					Your insider’s guide to the global business evolution —
 					spotlighting trends, voices, and opportunities shaping the
-					continent’s future.
+					future.
 				</p>
 			</div>
 
@@ -43,17 +43,17 @@ const Chronicles = () => {
 					whileInView={{ opacity: 1, x: 0 }}
 					transition={{ duration: 0.8, ease: "easeOut" }}
 					viewport={{ once: true }}
-					className='bg-gradient-to-br from-[#D24726] to-[#B63D1E] text-white rounded-2xl p-8 md:p-10 w-full max-w-lg shadow-2xl'
+					className='bg-gradient-to-br from-[#003fc0] to-[#3fa2f6] text-white rounded-2xl p-8 md:p-10 w-full max-w-lg shadow-2xl'
 				>
 					<h3 className='text-2xl font-semibold mb-4'>
-						Stories That Shape Africa’s Future
+						Stories That Shape The Future
 					</h3>
 					<p className='text-base leading-relaxed text-white/90 mb-6'>
-						Dive into rich perspectives on African markets,
+						Dive into rich perspectives on Global and African markets,
 						leadership, and innovation. Chronicles brings you in-depth
 						interviews, strategic insights, and inspiring success
-						stories that redefine what it means to do business on the
-						continent.
+						stories that redefine what it means to do business in the
+						digital age.
 					</p>
 
 					<motion.div

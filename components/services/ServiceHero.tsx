@@ -20,7 +20,7 @@ const ServiceHero = () => {
 						We Create Stories That Move People.
 					</h1>
 					<p className='text-gray-700 text-lg leading-relaxed max-w-2xl mx-auto lg:mx-0'>
-						At <strong>Explore 360</strong>, we’re more than a
+						At <strong>Business 360</strong>, we’re more than a
 						media production company — we’re storytellers, creatives,
 						and technical experts dedicated to transforming your
 						vision into powerful, unforgettable experiences.

@@ -16,7 +16,7 @@ const WhatToExpect = () => {
 			{
 				threshold: 0.3,
 				rootMargin: "0px",
-			}
+			},
 		);
 
 		if (sectionRef.current) {
@@ -159,7 +159,7 @@ const WhatToExpect = () => {
 							What To Expect
 						</h2>
 						<p className='text-gray-600 text-lg leading-relaxed'>
-							Join the Explore360 tour for a seamless blend of
+							Join the Business 360 tour for a seamless blend of
 							business insights, cultural immersion, and unforgettable
 							experiences
 						</p>
@@ -174,7 +174,7 @@ const WhatToExpect = () => {
 									isVisible
 										? `visible animate-fade-in-left stagger-${
 												index + 1
-										  }`
+											}`
 										: ""
 								} flex items-start gap-4 group cursor-pointer`}
 							>
