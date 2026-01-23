@@ -69,22 +69,6 @@ export const Brands = () => {
 We analyze Africa’s startup ecosystem, digital markets, business trends, and regulatory shifts — bringing clear, data-backed storytelling to a rapidly growing innovation economy.`,
 			category: "Media Production",
 		},
-		// {
-		// 	logo: m360,
-		// 	title: "M360 Solutions",
-		// 	image: market,
-		// 	link: "https://m360solutionsgroup.com/",
-		// 	desc: "M360 is a marketing solutions company dedicated to helping businesses grow by providing strategic marketing, branding, and digital solutions that drive results.",
-		// 	category: "Marketing Solutions",
-		// },
-		// {
-		// 	logo: btech,
-		// 	title: "IT Services and Solutions",
-		// 	image: IT,
-		// 	link: "https://tech360online.com/",
-		// 	desc: "BTech360 is an IT services and solutions company committed to empowering businesses with innovative technology, software development, and digital transformation strategies.",
-		// 	category: "IT Services",
-		// },
 		{
 			logo: b360,
 			title: "Business360",
