@@ -31,7 +31,7 @@ export async function generateMetadata({
 		openGraph: {
 			title: post.title,
 			description,
-			url: `https://thisisbusiness360.com/blog/${slug}`,
+			url: `https://theb360group.com/blog/${slug}`,
 			images: post.mainImage
 				? [
 						{

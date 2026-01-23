@@ -36,9 +36,28 @@ import ak1 from "./ak.jpeg";
 import ak2 from "./Ak2.jpeg";
 import ak3 from "./pp/HayKay.jpg";
 import festival from "./culture.jpg";
-import b360 from "./b360.png";
+import b360 from "./b360.jpg";
+import sm from "./sa.png";
+import atb from "./atb.png";
+// import m360 from "./m360.png";
+// import btech from "./btech.png";
+// import market from "./market.png";
+import IT from "./tech.png";
+import travel from "./travel.jpg";
+import tech from "./tech.png";
+import medias from "./mediaa.jpg";
+
 export {
 	logo,
+	sm,
+	atb,
+	// m360,
+	// btech,
+	tech,
+	medias,
+	// market,
+	IT,
+	travel,
 	b360,
 	media,
 	ak3,

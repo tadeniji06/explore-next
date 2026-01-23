@@ -9,8 +9,8 @@ export const metadata: Metadata = {
 		title: "Business 360 Blog | Insights for Global Business Growth",
 		description:
 			"Stay ahead with Business 360 insights on consulting, expansion, and growth opportunities.",
-		url: "https://thisisbusiness360.com/blog",
-		siteName: "Business 360",
+		url: "https://theb360group.com/blog",
+		siteName: "The B360 Group",
 		type: "website",
 	},
 	twitter: {
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 		title: "Business 360 Blog | Insights for Global Business Growth",
 		description:
 			"Discover expert content and strategies from Business 360 to grow your business.",
-		images: ["https://thisisbusiness360.com/logo.png"],
+		images: ["https://theb360group.com/logo.png"],
 	},
 };
 

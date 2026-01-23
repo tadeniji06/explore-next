@@ -37,7 +37,7 @@ const HomeAbout = () => {
 						viewport={{ once: true, amount: 0.3 }}
 						className='inline-block text-light-brown font-semibold text-sm uppercase tracking-wide'
 					>
-						About Business 360
+						About The B360 Group
 					</motion.span>
 
 					<motion.h2
@@ -65,7 +65,7 @@ const HomeAbout = () => {
 					>
 						At{" "}
 						<span className='font-semibold text-gray-800'>
-							Business 360
+							The B360 Group
 						</span>
 						, we are the nexus of Publication, Events, and TV. We
 						explore the intersection of People, Companies, and

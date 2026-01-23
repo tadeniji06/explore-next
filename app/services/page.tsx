@@ -11,11 +11,11 @@ export const metadata: Metadata = {
 		title: "Services – Business Expansion Across Africa",
 		description:
 			"Discover opportunities to expand your business across Africa. Network with leaders, explore markets, and grow your influence on the continent.",
-		url: "https://thisisbusiness360.com/services",
-		siteName: "Business 360",
+		url: "https://theb360group.com/services",
+		siteName: "The B360 Group",
 		images: [
 			{
-				url: "https://thisisbusiness360.com/logo.png",
+				url: "https://theb360group.com/logo.png",
 				width: 1200,
 				height: 630,
 				alt: "Business Expansion Tours Across Africa",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 		title: "Services – Business Expansion Across Africa",
 		description:
 			"Unlock opportunities across Africa. Exclusive tours for businesses ready to scale regionally.",
-		images: ["https://thisisbusiness360.com/logo.png"],
+		images: ["https://theb360group.com/logo.png"],
 	},
 };
 const page = () => {

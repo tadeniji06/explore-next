@@ -39,17 +39,18 @@ export const metadata: Metadata = {
 
 	// OpenGraph Metadata
 	openGraph: {
-		title: "Business 360 - The Future of Business, Tech & Innovation",
+		title:
+			"The B360 Group - The Future of Business, Tech & Innovation",
 		description:
 			"Your premier destination for Business, Publication, Events, TV, and Industry insights. Covering the global tech race, future of work, and emerging market opportunities.",
-		url: "https://thisisbusiness360.com",
-		siteName: "Business 360",
+		url: "https://theb360group.com",
+		siteName: "The B360 Group",
 		images: [
 			{
-				url: "https://thisisbusiness360.com/logo.png",
+				url: "https://theb360group.com/logo.png",
 				width: 1200,
 				height: 630,
-				alt: "Business 360",
+				alt: "The B360 Group",
 			},
 		],
 		locale: "en_US",
@@ -59,13 +60,14 @@ export const metadata: Metadata = {
 	// Twitter Metadata
 	twitter: {
 		card: "summary_large_image",
-		title: "Business 360 - The Future of Business, Tech & Innovation",
+		title:
+			"The B360 Group - The Future of Business, Tech & Innovation",
 		description:
 			"Your premier destination for Business, Publication, Events, TV, and Industry insights.",
-		images: ["https://thisisbusiness360.com/logo.png"],
+		images: ["https://theb360group.com/logo.png"],
 	},
 
-	metadataBase: new URL("https://thisisbusiness360.com"),
+	metadataBase: new URL("https://theb360group.com"),
 };
 
 export default function RootLayout({
