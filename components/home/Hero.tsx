@@ -34,8 +34,9 @@ const Hero = () => {
 					<p className='text-lg md:text-xl font-medium leading-relaxed max-w-3xl text-gray-200'>
 						Publication • Event • TV • People • Company • Industry{" "}
 						<br />
-						Connecting the dots between Tech, Finance, and the Future
-						of Work. See who is winning the global tech race.
+						Shaping the Narrative of Africa Businesses, Entrepreneurs
+						and Opportunities through our well curated Data-driven
+						Publications, Events and TV contents.
 					</p>
 
 					{/* Buttons */}

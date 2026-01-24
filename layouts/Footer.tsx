@@ -1,4 +1,4 @@
-import { b360 } from "../assets";
+import { group } from "../assets";
 import Link from "next/link";
 import { navLinks, socials } from "../utils/data";
 import Image from "next/image";
@@ -7,7 +7,7 @@ const Footer = () => {
 	const currentYear = new Date().getFullYear();
 
 	return (
-		<footer className='bg-white text-primary-blue'>
+		<footer className='bg-primary-blue text-white'>
 			<div className='max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8'>
 				<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12'>
 					{/* Company Info Section */}
@@ -17,7 +17,7 @@ const Footer = () => {
 								<Link href='/'>
 									<Image
 										className='md:w-auto md:h-[50px] w-[150px] h-[80px] object-contain'
-										src={b360}
+										src={group}
 										alt='Business 360 Logo'
 									/>
 								</Link>
@@ -31,7 +31,7 @@ const Footer = () => {
 									<Link
 										key={index}
 										href={social.link}
-										className='flex items-center gap-2 text-primary-blue hover:text-white transition-colors duration-200 group'
+										className='flex items-center gap-2 text-white hover:text-white transition-colors duration-200 group'
 										target='_blank'
 										rel='noopener noreferrer'
 									>
@@ -50,7 +50,7 @@ const Footer = () => {
 						</div>
 
 						{/* Copyright */}
-						<div className='text-primary-blue text-sm'>
+						<div className='text-sm'>
 							<p>
 								&copy; {currentYear} Business 360. All rights
 								reserved.
@@ -68,7 +68,7 @@ const Footer = () => {
 								<li key={index}>
 									<Link
 										href={link.link}
-										className='text-primary-blue hover:text-white transition-colors duration-200 text-sm block py-1'
+										className='text-white hover:text-white transition-colors duration-200 text-sm block py-1'
 									>
 										{link.name}
 									</Link>
@@ -82,7 +82,7 @@ const Footer = () => {
 						<h3 className='text-lg font-semibold mb-4'>
 							Information
 						</h3>
-						<div className='space-y-3 text-sm text-primary-blue'>
+						<div className='space-y-3 text-sm text-white'>
 							<div className='flex items-center gap-2'>
 								{/* <Icon icon="mdi:email-outline" className="w-4 h-4" /> */}
 								<span>Upcoming Tour</span>
@@ -101,7 +101,7 @@ const Footer = () => {
 				{/* Bottom Border */}
 				<div className='border-t border-white mt-12 pt-8'>
 					<div className='flex flex-col sm:flex-row justify-between items-center gap-4'>
-						<div className='text-primary-blue text-sm'>
+						<div className='text-white text-sm'>
 							<p>
 								Developed by{" "}
 								<Link
@@ -115,13 +115,13 @@ const Footer = () => {
 						<div className='flex gap-6 text-sm'>
 							<Link
 								href='/privacy'
-								className='text-primary-blue hover:text-white transition-colors duration-200'
+								className='text-white hover:text-white transition-colors duration-200'
 							>
 								Privacy Policy
 							</Link>
 							<Link
 								href='/terms'
-								className='text-primary-blue hover:text-white transition-colors duration-200'
+								className='text-white hover:text-white transition-colors duration-200'
 							>
 								Terms of Service
 							</Link>

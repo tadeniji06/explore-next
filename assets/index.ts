@@ -46,11 +46,13 @@ import IT from "./tech.png";
 import travel from "./travel.jpg";
 import tech from "./tech.png";
 import medias from "./mediaa.jpg";
+import group from "./group.png";
 
 export {
 	logo,
 	sm,
 	atb,
+	group,
 	// m360,
 	// btech,
 	tech,

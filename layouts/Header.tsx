@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { navLinks } from "../utils/data";
-import { b360 } from "../assets/index";
+import { group } from "../assets/index";
 import Link from "next/link";
 import { Icon } from "@iconify/react/dist/iconify.js";
 import Image from "next/image";
@@ -18,14 +18,14 @@ const Header = () => {
 	};
 
 	return (
-		<header className='sticky top-0 z-50 bg-white border-b shadow-lg'>
+		<header className='sticky top-0 z-50 bg-primary-blue border-b shadow-lg'>
 			<div className='flex items-center justify-between px-4 md:p-10 p-5 max-w-8xl mx-auto lg:px-6'>
 				{/* Logo */}
 				<div className='cursor-pointer flex-shrink-0'>
 					<Link href='/' onClick={closeMobileMenu}>
 						<Image
 							className='md:w-auto md:h-[50px] w-[150px] h-[60px] object-contain'
-							src={b360}
+							src={group}
 							alt='Business 360 Logo'
 						/>
 					</Link>
@@ -38,7 +38,7 @@ const Header = () => {
 							<li key={index} className='cursor-pointer'>
 								<Link
 									href={link.link}
-									className='text-primary-blue hover:text-primary-brown transition-colors duration-200 font-medium'
+									className='text-white hover:text-gray-500 transition-colors duration-200 font-medium'
 								>
 									{link.name}
 								</Link>
@@ -66,7 +66,7 @@ const Header = () => {
 				>
 					<Icon
 						icon={isMobileMenuOpen ? "mdi:close" : "mdi:menu"}
-						className='w-6 h-6 text-primary-blue'
+						className='w-6 h-6 text-white'
 					/>
 				</button>
 			</div>
@@ -83,25 +83,20 @@ const Header = () => {
 
 			{/* Mobile Menu */}
 			<div
-				className={`lg:hidden fixed top-0 right-0 h-full w-80 max-w-[85vw] bg-white shadow-xl transform transition-transform duration-300 ease-in-out z-50 ${
+				className={`lg:hidden fixed top-0 right-0 h-full w-80 max-w-[85vw] bg-primary-blue shadow-xl transform transition-transform duration-300 ease-in-out z-50 ${
 					isMobileMenuOpen ? "translate-x-0" : "translate-x-full"
 				}`}
 			>
 				<div className='flex flex-col h-full'>
 					{/* Mobile Menu Header */}
 					<div className='flex items-center justify-between p-4 border-b'>
-						<h2 className='text-lg font-semibold text-gray-800'>
-							Menu
-						</h2>
+						<h2 className='text-lg font-semibold text-white'>Menu</h2>
 						<button
 							onClick={closeMobileMenu}
 							className='p-2 rounded-md hover:bg-gray-100 transition-colors duration-200'
 							aria-label='Close mobile menu'
 						>
-							<Icon
-								icon='mdi:close'
-								className='w-5 h-5 text-primary-blue'
-							/>
+							<Icon icon='mdi:close' className='w-5 h-5 text-white' />
 						</button>
 					</div>
 
@@ -113,7 +108,7 @@ const Header = () => {
 									<Link
 										href={link.link}
 										onClick={closeMobileMenu}
-										className='block px-6 py-4 text-gray-700 hover:bg-gray-50 hover:text-blue-600 transition-colors duration-200 border-b border-gray-100 last:border-b-0'
+										className='block px-6 py-4 text-white hover:bg-gray-50 hover:text-blue-600 transition-colors duration-200 border-b border-gray-100 last:border-b-0'
 									>
 										{link.name}
 									</Link>
@@ -121,18 +116,6 @@ const Header = () => {
 							))}
 						</ul>
 					</nav>
-
-					{/* Mobile CTA Button */}
-					<div className='p-4 border-t bg-gray-50 '>
-						<Link href='/properties'>
-							<button
-								className='w-full py-3 px-6 text-center bg-primary-brown	text-white hover:bg-light-brown transition-colors duration-200'
-								onClick={closeMobileMenu}
-							>
-								Book Consultation
-							</button>
-						</Link>
-					</div>
 				</div>
 			</div>
 		</header>

@@ -57,8 +57,8 @@ export const Brands = () => {
 			title: "Showcase Africa",
 			image: medias,
 			link: "https://showcaseafricaonline.com",
-			desc: "Showcase Africa TV is a media production venture that offers high-end video editing, photography, and creative content services.",
-			category: "Media Production",
+			desc: "Showcase Africa is a publication that documents developments, opportunities and events  in  the African HoReCa and Travel Industries",
+			category: "Media Publication",
 		},
 		{
 			logo: atb,
